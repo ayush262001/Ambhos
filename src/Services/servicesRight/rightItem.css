@@ -1,0 +1,16 @@
+.item-right > img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 0.5px solid lightgray;
+    box-shadow: 3px 4px 12px rgb(95, 95, 95);
+}
+
+.item-right{
+    text-align: center;
+    color: rgb(58, 0, 58);
+}
+
+.item-right >p{
+    width: 100px;
+}

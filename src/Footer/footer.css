@@ -1,0 +1,34 @@
+.Footer-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #030303;
+    color: white;
+}
+
+.icons-footer{
+    margin: 0px 20px;
+}
+.afoot{
+    text-decoration: none;
+    color: white;
+}
+.address{
+    font-family: cursive;
+    color: gray;
+    text-align: center;
+}
+
+@media(max-width: 990px)
+{
+    .hide-div{
+        visibility: collapse;
+        display: none;
+    }
+    .Footer-section{
+        justify-content: center;
+        flex-direction: column;
+    }
+}

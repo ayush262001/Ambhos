@@ -1,0 +1,20 @@
+.trekking{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-image: url("./treck.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(66, 1, 66);
+}
+
+.Button-change{
+    border: 1px solid  rgb(66, 1, 66);
+    color: rgb(66, 1, 66);
+    background-color: none;
+    padding: 10px;
+    font-weight: bolder;
+}

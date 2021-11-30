@@ -1,0 +1,46 @@
+.rightCovid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: red;
+    padding: 20px;
+    margin: 0px auto;
+}
+
+.rightCovid > h3{
+    font-style: italic;
+    font-family: cursive;
+    font-weight: 600;
+}
+
+.ButtonRight{
+    background-color: rgb(77, 1, 109) ;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px ;
+    border-radius: 50px
+}
+.InsideButton{
+    background-color: white;
+    color: rgb(77, 1, 109);
+    padding: 0px 2px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+@media(max-width: 991px)
+{
+    .rightCovid{
+        visibility: collapse;
+        display: none;
+    }
+}

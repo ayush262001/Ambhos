@@ -1,0 +1,70 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    color: rgba(255, 166, 0, 0.877);
+    padding: 0px 10px;
+    border-bottom: 0.2px solid lightgray;
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+    background-color: white;
+}
+
+.name-ambo{
+    font-family: montserrat alternates;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+}
+.navbar > a{
+    margin: 0px 20px;
+    color: gray;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.icons{
+    margin: 0px;
+    color: royalblue;
+}
+
+.navbar > a > h6{
+    margin: 0px;
+} 
+
+.unactive:hover > .icons{
+    color: #9e9efc;
+}
+
+.unactive:hover > h6{
+    color: rgb(175, 175, 175);
+}
+
+.active > .icons{
+    color: rgb(158, 158, 252);
+}
+.active > h6{
+    color: rgb(175, 175, 175);
+}
+
+@media(max-width: 991px)
+{
+
+    .header{
+        flex-direction: column;
+    }
+
+    .navbar > a{
+        margin: 0px 10px;
+    }
+}

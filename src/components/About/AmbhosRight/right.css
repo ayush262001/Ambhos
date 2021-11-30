@@ -1,0 +1,25 @@
+.right{
+    background: #243E5D;
+    padding: 5px;
+    width: fit-content;
+    height: fit-content;
+    margin:0px 5px;
+    display: inline;
+    
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+.scrollFast{
+    display: flex;
+    height: 450px;
+}
+
+@media(max-width: 991px)
+{
+    .scrollFast{
+        display: flex;
+        width: 100%;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+    }
+}

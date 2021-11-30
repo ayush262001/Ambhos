@@ -1,0 +1,56 @@
+.content{
+    color: gray;
+}
+
+
+.active-right{
+    color: white;
+    background-color: rgb(77, 1, 109);
+    padding: 60px 20px;
+    margin: 0px 10px;
+    border-radius: 10px;
+    display: inline;
+    text-align: center;
+    border: 0.3px solid lightgray;
+    width: 300px;
+
+    /*box shadow property*/
+    box-shadow: 5px 0px 10px rgb(179, 179, 179), -5px 0px 10px rgb(179, 179, 179);
+}
+
+.active-right > p
+{
+    text-align: center;
+}
+
+.unactive-right{
+    padding: 60px 20px;
+    margin: 0px 10px;
+    border-radius: 10px;
+    display: inline;
+    text-align: center;
+    border: 0.3px solid lightgray;
+    width: 300px;
+
+    /*box shadow property*/
+    box-shadow: 5px 0px 10px rgb(179, 179, 179), -5px 0px 10px rgb(179, 179, 179);
+}
+
+.unactive-right > p
+{
+    text-align: center;
+}
+
+.active-right > img , .unactive-right > img{
+    width: 50px;
+    height: 50px;
+}
+
+
+@media(max-width:580px)
+{
+    .active-right > p, .unactive-right > p{
+        visibility: collapse;
+        display: none;
+    }
+}

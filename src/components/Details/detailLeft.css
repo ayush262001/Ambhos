@@ -1,0 +1,60 @@
+.detail-left{
+    width: 30%;
+}
+.detail-left > h2{
+    color: rgb(77, 1, 109);
+}
+.line{
+    height: 5px;
+    width: 40px;
+    background-color: darkviolet;
+    border-radius: 5px;
+}
+
+.detail-left > h4{
+    color: black;
+    font-weight: bold;
+}
+
+.detail-left > p{
+    color: gray;
+}
+
+.button{
+    background-color: rgb(77, 1, 109);
+    color: white;
+    border-radius: 60px;
+    box-shadow: 2px 5px 12px rgba(0, 0, 0, 0.205) ;
+    width: fit-content;
+    display: flex;
+    padding: 0px 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.right-button{
+    color: rgb(77, 1, 109);
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+a{
+    text-decoration: none;
+}
+
+
+@media(max-width:991px)
+{
+    .detail-left{
+        display: block;
+        width: 70%;
+        margin:0px auto;
+    }
+}
+
+@media(max-width:580px){
+       .detail-left{
+           width: 100%;
+       }
+}

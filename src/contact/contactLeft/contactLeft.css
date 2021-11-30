@@ -1,0 +1,28 @@
+.ContactLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    border: 0.3px solid lightgray;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 4px 12px #888;
+    margin-top: -150px;
+}
+
+@media(max-width: 660px)
+{
+    .email{
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 527px)
+{
+     .ContactLeft{
+        width: 70%;
+        margin: 0px auto;
+        margin-top: -150px;
+     }
+}

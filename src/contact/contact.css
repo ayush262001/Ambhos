@@ -1,0 +1,15 @@
+.contactUs{
+    color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #243E5D;
+    padding-bottom: 30px;
+}
+
+@media(max-width: 527px)
+{
+       .contactUs{
+           flex-direction: column;
+       }
+}

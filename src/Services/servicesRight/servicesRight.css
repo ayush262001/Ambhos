@@ -1,0 +1,31 @@
+.services-right{
+    width: 40%;
+    display: block;
+}
+
+.obj-now{
+    margin: 20px 20px;
+    display: inline-block;
+}
+
+@media(max-width: 991px)
+{
+    .services-right{
+        width: 100%;
+        height: 170px;
+        display: flex;
+        flex-direction: row;
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+        
+    }
+
+    ::-webkit-scrollbar{
+        display: none;
+    }
+    
+    .obj-now{
+        margin: 20px 20px;
+    } 
+}
+
